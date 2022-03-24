@@ -11,7 +11,7 @@ The output will be the Dashboard.
 You can navigate the data by clicking on each tab at the top of the Dashboard.
 Some of the charts and graphs are interactive. See details to navigate each tab below.
 
-#### Welcome tab
+#### Welcome Tab
 You can zoom in and out on the map of Toronto, and navigate around the map.
 
 Hover your cursor over a dot on the map to view more data associated with that neighbourhood.
