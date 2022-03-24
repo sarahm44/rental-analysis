@@ -23,7 +23,7 @@ These graphs are static, but you can scroll across or up and down to view.
 These graphs are static, but you can scroll across or up and down to view.
 
 #### Neighbourhood Analysis
-On each chart use the dropdown meny to view data for different neighbourhoods.
+On each chart use the dropdown menu to view data for different neighbourhoods.
 
 You can also navigate around these graphs through tools such as zoom, pan etc.
 
