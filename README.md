@@ -7,6 +7,18 @@ I created an interactive dashboard using Toronto real estate data, including [To
 
 This dashboard's goal is to provide charts, maps, and interactive visualizations that help customers explore the data and determine if they want to invest in rental properties in Toronto.
 
+## Rental Analysis
+
+### Dwelling Types Per Year
+This section calculates the number of dwelling types per year and visualizes the results as a bar chart using the Pandas plot function.
+
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dwelling_types01.png)
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dwelling_types02.png)
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dwelling_types03.png)
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dwelling_types04.png)
+
+### Average Monthly Shelter Costs in Toronto Per Year
+
 ## Environment
 
 This repo utilises PyViz. It is recommended the following are installed in a new environment.
