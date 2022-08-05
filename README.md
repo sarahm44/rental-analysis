@@ -1,4 +1,4 @@
-# Real Estate Analysis
+# Rental Analysis
 
 ## Overview
 
