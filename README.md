@@ -1,4 +1,10 @@
-# Rental Analysis
+# Real Estate Analysis
+
+## Overview
+
+I created an interactive dashboard using Toronto real estate data.
+
+This dashboard's goal is to provide charts, maps, and interactive visualizations that help customers explore the data and determine if they want to invest in rental properties in Toronto.
 
 ## How to Run the Dashboard
 ### Running the Dashboard
