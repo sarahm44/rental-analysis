@@ -1,5 +1,4 @@
-# unit-6-assignment
-Assignment for Unit 6 - PyViz.
+# Rental Analysis
 
 ## How to Run the Dashboard
 ### Running the Dashboard
