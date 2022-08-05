@@ -19,6 +19,18 @@ This section calculates the number of dwelling types per year and visualizes the
 
 ### Average Monthly Shelter Costs in Toronto Per Year
 
+This section visualizes the average monthly shelter costs per year to better understand the rental income trends over time. See below the average (mean) shelter cost for owned and rented dwellings per year:
+
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/shelter_costs.png)
+
+### Average House Value per Year
+
+This section determines the average house value per year. An investor may want to better understand the sales price of the rental property over time. For example, a customer will want to know if they should expect an increase or decrease in the property value over time so they can determine how long to hold the rental property.
+
+See below the average housee value in Toronto per year:
+
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/house_value.png)
+
 ## Environment
 
 This repo utilises PyViz. It is recommended the following are installed in a new environment.
