@@ -1,6 +1,13 @@
 # Toronto Rental Analysis
 ![](https://github.com/sarahm44/rental-analysis/blob/main/Images/toronto.jpg)
 
+## Table of Contents
+- [Overview](#overview)
+- [Rental Analysis](#rental-analysis)
+- [Dashboard](#dashboard)
+- [Environment](#environment)
+- [How to Run the Dashboard](#how-to-run-the-dashboard)
+
 ## Overview
 
 I created an interactive dashboard using Toronto real estate data, including [Toronto Census Data](https://github.com/sarahm44/rental-analysis/blob/main/toronto_neighbourhoods_census_data.csv) and [Toronto Neighbourhood Coordinates](https://github.com/sarahm44/rental-analysis/blob/main/toronto_neighbourhoods_coordinates.csv), with the help of the [Mapbox API](https://www.mapbox.com/).
@@ -95,7 +102,7 @@ conda create -n pyvizenv python=3.7 anaconda -y
 conda activate pyvizenv
 ```
 
-### Before You Instal PyViz Dependencies
+### Before You Install PyViz Dependencies
 
 Before installing the PyViz dependencies, you need to install a couple of libraries. First, install the `python-dotenv` library using `pip` to work with environment variables.
 
@@ -207,6 +214,8 @@ Follow the next steps to install PyViz and all its dependencies in your Python v
 
 ## How to Run the Dashboard
 
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dashboard.png)
+
 ### Running the Dashboard
 In order to run the Dashboard, run the code in **dashboard.ipynb** file.
 At code block titled "Serve the Panel Dashboard", run the code "dashboard.servable()".
@@ -216,22 +225,10 @@ The output will be the Dashboard.
 You can navigate the data by clicking on each tab at the top of the Dashboard.
 Some of the charts and graphs are interactive. See details to navigate each tab below.
 
-#### Welcome Tab
-You can zoom in and out on the map of Toronto, and navigate around the map.
-
-Hover your cursor over a dot on the map to view more data associated with that neighbourhood.
-
-#### Yearly Market Analysis Tab
-These graphs are static, but you can scroll across or up and down to view.
-
-#### Shelter Cost vs House Value Tab
-These graphs are static, but you can scroll across or up and down to view.
-
-#### Neighbourhood Analysis Tab
-On each chart use the dropdown menu to view data for different neighbourhoods.
-
-You can also navigate around these graphs through tools such as zoom, pan etc.
-
-#### Top Expensive Neighbourhoods Tab
-These charts are also interactive. Zoom or move around on the bar chart. 
-On the sunburst chart you can hover your cursor to view more data.
+| Tab           | Instructions | 
+| ------------- |-------------| 
+| Welcome      | You can zoom in and out on the map of Toronto, and navigate around the map. Hover your cursor over a dot on the map to view more data associated with that neighbourhood. | 
+| Yearly Market Analysis     | These graphs are static, but you can scroll across or up and down to view. |  
+| Shelter Cost vs House Value | These graphs are static, but you can scroll across or up and down to view. |  
+| Neighbourhood Analysis | On each chart use the dropdown menu to view data for different neighbourhoods. You can also navigate around these graphs through tools such as zoom, pan etc.|
+|Top Expensive Neighbourhoods | These charts are also interactive. Zoom or move around on the bar chart. On the sunburst chart you can hover your cursor to view more data.|
