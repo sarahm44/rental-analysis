@@ -79,7 +79,7 @@ The [dashboard.ipynb](https://github.com/sarahm44/rental-analysis/blob/main/dash
 
 See the dashboard below:
 
-  ![dashboard-demo.gif](Images/dashboard-demo.gif)
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dashboard.png)
 
 ## Environment
 
