@@ -9,6 +9,8 @@ This dashboard's goal is to provide charts, maps, and interactive visualizations
 
 ## Rental Analysis
 
+The code for the rental analysis is contained in [rental_analysis.ipynb](https://github.com/sarahm44/rental-analysis/blob/main/rental_analysis.ipynb).
+
 ### Dwelling Types Per Year
 This section calculates the number of dwelling types per year and visualizes the results as a bar chart using the Pandas plot function.
 
@@ -27,9 +29,57 @@ This section visualizes the average monthly shelter costs per year to better und
 
 This section determines the average house value per year. An investor may want to better understand the sales price of the rental property over time. For example, a customer will want to know if they should expect an increase or decrease in the property value over time so they can determine how long to hold the rental property.
 
-See below the average housee value in Toronto per year:
+See below the average house value in Toronto per year:
 
 ![](https://github.com/sarahm44/rental-analysis/blob/main/Images/house_value.png)
+
+### Average House Value by Neighbourhood
+
+This section compares the house value by neighbourhood. By using `hvplot`, the graph includes an interactive dropdown selector for the neighbourhood. See in the image below:
+
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/value_by_neighbourhood.png)
+
+### Number of Dwelling Types per Year
+
+This section visualizes the number of dwelling types per year in each neighbourhood. This provides investors with a tool to understand the evolution of dwelling types over the years.
+
+By using `hvplot`, the graph includes an interactive visualization of the average number of dwelling types per year with a dropdown selector for the neighbourhood. See in the image below
+
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/dt_per_year.png)
+
+### Top 10 Most Expensive Neighbourhoods
+
+In order to ascertain which neighbourhoods are the most expensive, I calculated the mean house value for each neighbourhood and then sorted the values to obtain the top 10 most expensive neighbourhoods on average. 
+
+The results are plotted as a bar chart:
+
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/10_most_expensive.png)
+
+### Neighbourhood Map
+
+In this final section I read in neighbourhood location data and built an interactive map with the average prices per neighbourhood. A scatter Mapbox object from Plotly express was used to create the visualization.
+
+See the visualisation below:
+
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/map.png)
+
+### Cost Analysis
+
+See below a bar chart row facet created to plot the average house values for all Toronto neighbourhoods per year:
+
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/value_neighbourhood.png)
+
+See below a sunburst chart to conduct a cost analysis of the most expensive neighbourhoods in Toronto per year:
+
+![](https://github.com/sarahm44/rental-analysis/blob/main/Images/sunburst.png)
+
+## Dashboard
+
+The [dashboard.ipynb](https://github.com/sarahm44/rental-analysis/blob/main/dashboard.ipynb) notebook contains the dashboard code. 
+
+See the dashboard below:
+
+  ![dashboard-demo.gif](Images/dashboard-demo.gif)
 
 ## Environment
 
